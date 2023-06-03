@@ -6,6 +6,7 @@
  
  List of the readmes:
  - [app](src/app/README.md)
+ - [api](src/app/api/README.md)
  - [domain](src/domains/README.md)
  - [hooks](src/hooks/README.md)
  - [services](src/services/README.md)
