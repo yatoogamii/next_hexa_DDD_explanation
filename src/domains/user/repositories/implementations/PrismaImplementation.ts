@@ -20,6 +20,7 @@ export const PrismaImplementation: UserRepositoryInterface = (id) => (deps) => {
         where: { id },
         data: newData,
       });
+
     },
     delete: async (id) => {
       await prisma.user.delete({
