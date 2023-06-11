@@ -2,7 +2,7 @@ type HttpServiceInterfaceDependencies = {
   AuthService: () => {};
 };
 
-export type HttpServiceInterface = (token: string) => (
+export type HttpServiceInterface = (token?: string) => (
   dependencies?: HttpServiceInterfaceDependencies
 ) => {
   get: <TResponse>(
